@@ -1,0 +1,64 @@
+:root {
+    --dark_cyan: #3c8067;
+    --cream: #f2ebe3;
+    --very_dark_blue: #1c232b;
+    --dark_grayish_blue: #6c7289;
+    --white: #fff;
+    --paragraph: 1.4rem;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    /*
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*NO OLVIDAR ESTO*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
