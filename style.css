@@ -25,6 +25,10 @@ body {
     flex-wrap: nowrap;
 }
 
+.mobile_image {
+    display: none;
+}
+
 .right_container {
     display: flex;
     flex-direction: column;
@@ -89,6 +93,11 @@ p {
     width: 400px;
     padding: 30px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn_cart:hover {
+    background-color: green;
 }
 
 .btn_cart > img {
@@ -101,5 +110,17 @@ p {
     .main_container {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .mobile_image {
+        display: block;
+    }
+
+    .desktop_image {
+        display: none;
+    }
+
+    .btn_cart {
+        margin-bottom: 40px;
     }
 }
